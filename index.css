@@ -1,0 +1,83 @@
+body {
+  background: #000;
+}
+div {
+  color: aliceblue;
+}
+
+.up {
+  margin: 20px;
+}
+.down {
+  margin: 20px;
+}
+/* .head_title {
+  margin: 20px;
+} */
+.Usertitle {
+  margin: 0 0 40px 0;
+}
+select {
+  font-size: 18px;
+  padding: 8px 28px 8px 16px;
+  margin: 50px 0 30px 0;
+  border: white 2px solid;
+  background-color: black;
+  color: white;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 960px; /* adjust as per your requirement */
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.card {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  border-radius: 5px;
+  width: calc(33.33% - 10px);
+  box-sizing: border-box;
+}
+#filterBtn {
+  background-color: white;
+  margin: 20px 0 30px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#AddBtn {
+  background-color: white;
+  /* margin: 20px 0 0 20px; */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+input[type="text"] {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid white;
+  display: block;
+}
+.LowerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.low {
+  flex-grow: 1;
+  margin: 0 50px 20px 0;
+  /* border: 1px solid white; */
+}
